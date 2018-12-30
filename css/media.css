@@ -1,0 +1,1119 @@
+/*Start Header*/
+
+/*-----------1200----------*/
+@media (max-width: 1200px){
+    header .tabs ul {
+        margin: 0 7%;
+        
+   
+}
+/*-----------/1200----------*/
+/*-----------1024----------*/
+@media (max-width: 1024px){
+    header .tabs ul{
+        margin-left: 7%;
+    }
+}
+/*-----------/1024----------*/
+/*-----------991----------*/
+@media (max-width: 991px){
+    header {
+      padding-bottom: 75px;
+    }
+    
+    header .title-logo {
+        
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    header .title {
+        margin-top: 3px;
+    }
+    
+    header .logo img{
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    header .title ul li:nth-child(1){
+        margin-bottom: -7px;
+    }
+    header .title ul .ar {
+        font-size: 20px;
+        margin-left: 34px;
+    }
+    header .title ul .en {
+        font-size: 20px;
+        margin-left: 34px;
+    }
+    header .tabs{
+        position: absolute;
+        background: #fff;
+        border: 1px solid #efeeee;
+        border-radius: 5px;
+        top: 61px;
+        left: 0;
+        z-index:100;
+        box-shadow: 0 3px 8px 0px #0000005e;
+    }
+    header .tabs button{
+        color:#f2be7c;
+        background: transparent;
+        box-shadow: none;
+    }
+    header .tabs .btn.focus, .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    header .tabs ul{
+        text-align: center;
+        margin-left:0;
+    }
+    header .tabs ul li{
+        padding-left:0;
+        width: 262px;
+        
+    }
+    
+    header .tabs ul li:hover:after{
+        display: none
+    }
+    header .tabs .nav-item .nav-link {
+        border-bottom: 1px solid #eceaea;
+        
+    }
+    header .tabs .nav-item .nav-link:hover{
+        background: #f2be7c;
+        color: #fff !important;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    
+    header .navbar-toggler{
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        z-index:100;
+        
+    }
+    header button.navbar-toggler:hover{
+        background: #f2be7c;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    header .search-container .search-form {
+        left: -97px;
+        top: 20px
+}
+}
+/*------------/991--------------*/
+/*-----------768----------*/
+@media (max-width: 768px){
+ 
+}
+/*------------/768--------------*/
+/*------------520--------------*/
+@media (max-width: 520px){
+    header .tabs {
+        left: 10px;
+    }
+}
+/*------------/520--------------*/
+/*------------425--------------*/
+@media (max-width: 425px){
+    
+}
+/*------------/425--------------*/
+/*------------360--------------*/
+@media (max-width: 360px){
+    header .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    header .title-logo{
+        top: 13px;
+    }
+    header .title ul .ar,
+    header .title ul .en{
+        font-size: 13px
+    }
+    header .title {
+        margin-top: -8px;
+    }
+    header .title ul li:nth-child(1) {
+        margin-bottom: -10px;
+    }
+    header button.navbar-toggler{
+        width: 33px;
+        
+    }
+    header button.navbar-toggler span{
+        height: 25px;
+        margin-left: -11px;
+    }
+}
+/*------------/360--------------*/
+/*------------320--------------*/
+@media (max-width: 320px){
+    
+}
+/*------------/320--------------*/
+/*End Header*/
+
+
+
+
+
+
+/*Start Slider
+
+/*---------1200---------*/
+@media (max-width: 1200px){
+
+    .slider .item1,
+    .slider .item2,
+    .slider .item3{
+        top: 20%
+    
+    }
+    .slider .carousel-inner button{
+        
+    }
+}
+/*---------/1200---------*/
+/*---------1024---------*/
+@media (max-width: 1024px){
+    .slider{
+        
+
+    }
+    .slider .carousel-control-prev{
+        left: 26px;
+    }
+    .slider .carousel-control-next{
+        right: 26px;
+    }
+     .slider .item1,
+    .slider .item2,
+    .slider .item3{
+        top: 54px;
+    
+    }
+    .slider .carousel-inner h5 {
+        font-size: 20px;
+        margin-top: 44px;
+    }
+    .slider .carousel-inner p{
+        font-size: 13px;
+    } 
+    
+}
+
+/*---------/1024---------*/
+/*---------991---------*/
+@media (max-width: 991px){
+    .slider{
+        
+
+    }
+    .slider .item1,
+    .slider .item2,
+    .slider .item3{
+        right: 75px;
+        
+    
+    }
+    .slider .carousel-inner button{
+        
+    }
+}
+/*---------/991---------*/
+/*---------768---------*/
+@media (max-width: 768px){
+    .slider{
+        
+
+    }
+    .slider .item1,
+    .slider .item2,
+    .slider .item3{
+        top: 15px;
+    
+    }
+    .slider .carousel-control-prev-icon,
+    .slider .carousel-control-next-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .slider .carousel-control-next{
+        right: 15px;
+    }
+    .slider .carousel-control-prev{
+        left: 15px;
+    }
+    .slider .carousel-inner p{
+        font-size: 11px;
+        line-height:20px;
+        
+    }
+    .slider .carousel-inner h5{
+        margin-bottom: 14px
+    }
+    
+}
+/*---------/768---------*/
+/*---------520---------*/
+@media (max-width: 520px){
+    
+    .slider .item1,
+    .slider .item2,
+    .slider .item3{
+        top: 0px;
+        right:40px
+    
+    }
+    
+    .slider .carousel-control-next{
+        display: none;
+    }
+    .slider .carousel-control-prev{
+        display: none;
+    }
+    .slider .carousel-inner p{
+        font-size: 8px;
+        line-height: 17px;
+        
+    }
+    .slider .carousel-inner h5{
+        margin-bottom: 14px;
+        font-size: 13px
+    }
+    .slider .item1 button{
+        font-size: 9px;
+        padding: 10px;
+        width: 50px;
+        line-height: 0;
+        margin-top: -28px;
+    }
+    .slider .item2 button{
+        font-size: 9px;
+        padding: 10px;
+        width: 50px;
+        line-height: 0;
+        margin-top: -28px;
+    }
+    .slider .item3 button{
+        font-size: 9px;
+        padding: 10px;
+        width: 50px;
+        line-height: 0;
+        margin-top: -28px;
+    }
+}
+/*---------/520---------*/
+/*---------425---------*/
+@media (max-width: 425px){
+    .slider .carousel-inner h5{
+        font-size:10px;
+        margin-top:50px
+    }
+    .slider .carousel-inner p {
+        font-size: 5px;
+        line-height: 13px;
+        
+    }
+    .slider .item1, .slider .item2, .slider .item3 {
+    top: -15px;
+    right: 20px;
+}
+    
+    .slider .item1 button,
+    .slider .item2 button,
+    .slider .item3 button{
+    font-size: 7px;
+    padding: 8px;
+    width: 43px;
+    line-height: 0;
+    margin-top: -28px;
+}
+}
+/*---------/425---------*/
+/*---------360---------*/
+@media (max-width: 360px){
+    .slider .carousel-inner p {
+    font-size: 5px;
+    line-height: 10px;
+    
+}
+    .slider .item1 button,
+    .slider .item2 button,
+    .slider .item3 button {
+    font-size: 4px;
+    padding: 5px;
+    width: 28px;
+    line-height: 0;
+    margin-top: -39px;
+}
+    .slider .item1, .slider .item2, .slider .item3 {
+    top: -18px;
+    right: 18px;
+}
+}
+/*---------/360---------*/
+/*---------320---------*/
+@media (max-width: 320px){
+    .slider{
+       
+
+    }
+    .slider .carousel-inner h5{
+        margin-bottom: 7px;
+    }
+    .slider .carousel-inner p{
+        line-height: 10px;
+        
+        font-size: 5px;
+    }
+    .slider .item1, .slider .item2, .slider .item3{
+        right: 12px
+    }
+    .slider .item1 button,
+    .slider .item2 button,
+    .slider .item3 button {
+    font-size: 4px;
+    padding: 6px;
+    width: 28px;
+    line-height: 0;
+    margin-top: -40px;
+}
+}
+/*---------/320---------*/
+/*End Slider*/
+
+
+/*About Us*/
+
+/*--------1024--------*/
+@media (max-width: 1024px){
+    .about-us .social-icons,
+    .about-us .telephones,
+    .about-us .mail,
+    .about-us .adress{
+        width: 100%;
+    }
+    .about-us .adress span a {
+    padding-right: 3px;
+    font-size: 11px;
+    }
+    
+    .about-us .mail span i{
+        margin-right: -5px;
+    }
+    .about-us .telephones span i {
+        margin-right: -6px;
+    }
+}
+/*--------/1024--------*/
+/*--------991--------*/
+@media (max-width: 991px){
+    .about-us {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    .about-us .social-icons{
+        margin-top:0
+    }
+    .about-us .social-icons:after{
+        height:100%;
+        
+    
+    }
+    .about-us .social-icons span i{
+        font-size:8px
+    }
+     
+    .about-us .adress span i,
+    .about-us .telephones span i,
+    .about-us .mail span i
+    {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 8px;
+    }
+    .about-us .telephones:after {
+        height: 100%;
+        right: -3%;
+   
+    }
+    .about-us .telephones span a{
+        padding-right: 7px;
+        font-size: 10px;
+    }
+    .about-us .mail:after{
+        height: 100%;
+        right:-2%;
+    }
+    .about-us .mail span a{
+        padding-right: 7px;
+        font-size: 10px;
+    }
+    .about-us .adress span a{
+        padding-right: 7px;
+        font-size: 8px;
+    }
+     
+}
+/*--------/991--------*/
+/*--------767--------*/
+@media (max-width: 767px){
+    
+    .about-us .social-icons:after,
+    .about-us .telephones:after,
+    .about-us .mail:after{
+        display: none;
+    }
+    .about-us .social-icons:before{
+        position: absolute;
+        content: ' ';
+        width: 20%;
+        height: 0;
+        bottom:0;
+        left: 38%;
+        border-bottom: 1px solid #d2d2d240;
+        
+    }
+    .about-us .social-icons{
+        padding-bottom: 10px
+    }
+    .about-us .telephones:before{
+        position: absolute;
+        content: ' ';
+        width: 20%;
+        height: 0;
+        bottom:0;
+        left: 38%;
+        border-bottom: 1px solid #d2d2d240;
+    }
+    .about-us .adress{
+        padding-top:5px;
+    }
+    .about-us .mail{
+        padding-top: 5px;
+    }
+    .about-us .adress{
+        margin-left: 8px
+    }
+}
+/*--------/767-------*/
+/*--------575--------*/
+@media (max-width: 575px){
+    .about-us{
+        text-align: right !important;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    .about-us .social-icons:before,
+    .about-us .telephones:before{
+        display:none;
+    }
+    .about-us .social-icons,
+    .about-us .telephones,
+    .about-us .mail{
+        padding-bottom: 20px;
+        
+        
+    }
+    .about-us .social-icons span a i{
+        font-size:15px;
+    }
+    .about-us .adress span i,
+    .about-us .telephones span i,
+    .about-us .mail span i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+        padding-right: 14px;
+        margin: 0;
+        
+    
+    }
+    .about-us .telephones span a,
+    .about-us .mail span a,
+    .about-us .adress span a{
+        font-size: 15px;
+    }
+    .about-us .adress{
+        margin-left: 0;
+    }
+    
+    
+}
+/*--------/575--------*/
+/*--------425--------*/
+@media (max-width: 425px){
+    
+}
+/*--------/425--------*/
+/*--------360--------*/
+@media (max-width: 360px){
+    
+}
+/*--------/360--------*/
+/*--------320--------*/
+@media (max-width: 320px){
+    .about-us .adress{
+        margin-right: 7px;
+    }
+    .about-us .adress span a{
+        font-size: 12px;
+    }
+}
+/*--------/320--------*/
+/*End About-us*/
+/*Start Who We Are*/
+/*--------1024--------*/
+@media (max-width: 1024px){
+    .our-products .item-1,
+    .our-products .item-2,
+    .our-products .item-3,
+    .our-products .item-4,
+    .our-products .item-5,
+    .our-products .item-6{
+        
+    }
+}
+
+/*--------/1024--------*/
+/*--------991--------*/
+@media (max-width: 991px){
+    
+}
+/*--------/991--------*/
+/*--------768--------*/
+@media (max-width: 768px){
+    .our-products{
+        padding-bottom:90px;
+    }
+
+.our-products .row{
+        width: 100%;
+        margin: auto
+    }
+}
+/*--------/768--------*/
+/*--------520--------*/
+@media (max-width: 520px){
+    
+    
+    .our-products .row:before{
+        right: 110px;
+    }
+    .our-products .item-1,
+    .our-products .item-2,
+    .our-products .item-3,
+    .our-products .item-4,
+    .our-products .item-5,
+    .our-products .item-6 {
+        width: 100%;
+        margin: 20px auto;
+}
+    .our-products .read-more{
+        margin-bottom: 34px;
+        margin-top: 0; 
+        margin-left: 18px;
+    }
+}
+/*--------/520--------*/
+
+/*End Who We Are*/
+/*Start Our Vision*/
+/*---------1200-------*/
+    @media (max-width: 1200px){
+        .our-vision .accordion .card textarea{
+            
+        }
+        .our-vision .txt-part .paragraph{
+            margin-bottom: 41px;
+        }
+        .our-vision .email {
+            margin-top: -13px;
+        }
+    }
+/*---------/1200-------*/
+    
+/*---------1024-------*/
+    @media(max-width:1024px){
+        .our-vision .email .has-search:before{
+            right: -16px;
+        }
+    }
+/*---------/1024-------*/
+    
+/*---------991-------*/
+    @media(max-width:991px){
+        .our-vision {
+            padding-left:160px;
+        }
+        .our-vision .title {
+          
+        }
+        .our-vision .paragraph{
+            font-size: 12px;
+        }
+        .our-vision #slider{
+            margin-left: -48%;
+            min-width: 713px
+        }
+        .our-vision #slider .img-1{
+            background-image: url(../imgs/our-vision-991.png) ;
+        }
+        .our-vision #slider .img-2{
+            background-image: url(../imgs/our-vision2-991.png);
+        }
+        .our-vision #slider .img-3{
+            background-image: url(../imgs/our-vision3-991.png);
+        }
+        .our-vision #thumbnail .thumbnail-list li{
+            line-height: 1.5;
+            top: 240px;
+            left: -38px;
+        }
+        .our-vision .accordion {
+            margin-left: -106px
+        }
+        .our-vision .accordion .card textarea{
+            
+        }
+        .our-vision .txt-part .paragraph {
+            margin-bottom: 40px;
+        }
+        .our-vision .txt-part .paragraph p{
+            line-height: 1.5
+        }
+        .our-vision .email{
+            margin-left: -160px;
+        }
+        .our-vision .email .has-search .form-control {
+            margin-left: 0;
+            width: 356px;
+        }
+        .our-vision .email .subscribe{
+            margin-right: unset;
+        }
+        .our-vision .email .subscribe i {
+            display: none;
+        }
+        
+        .our-vision .email .has-search .form-control-feedback{
+            margin-left: 11px;
+        }
+        
+    }
+/*---------/991-------*/
+    
+/*---------/768-------*/
+    @media(max-width:768px){
+        .our-vision{
+            margin:0;
+            padding: 0;
+            padding-top: 50px;
+            background-image: none;
+            background-color:#1a1a1a;
+            height:unset
+        }
+        .our-vision .accordion {
+            margin-left: unset;
+        }
+        .our-vision #slider {
+/*            margin-left: -58%;*/
+            margin-left: 0;
+            min-width: 310px;
+            width: 310px;
+            margin-top: 0
+        }
+        .our-vision #thumbnail {
+            right: -31px;
+        }
+        .our-vision .txt-part{
+            margin-top: 0;
+        }
+        .our-vision .txt-part .paragraph {
+/*            margin-bottom: 23px;*/
+        }
+        .our-vision .accordion .card textarea{
+            
+        }
+        
+        .our-vision .email{
+            margin:0;
+            padding:0;
+        }
+        .our-vision .email{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .our-vision .email .has-search:before {
+            right: 12px;
+        }
+       .our-vision .email .has-search .form-control {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+/*---------/768-------*/
+/*---------520-------*/
+    @media(max-width:520px){
+        .our-vision {
+            padding-left: unset;
+        }
+        
+        .our-vision #slider {
+            margin-left:unset;
+            min-width: 260px;
+            width: 260px;
+        }
+        .our-vision #slider .img-1{
+            background-image: url(../imgs/our-vision-520.png) ;
+        }
+        .our-vision #slider .img-2{
+            background-image: url(../imgs/our-vision2-520.png);
+        }
+        .our-vision #slider .img-3{
+            background-image: url(../imgs/our-vision3-520.png);
+        }
+        .our-vision #thumbnail {
+            right: 135px
+        }
+        .our-vision #thumbnail .thumbnail-list li {
+            line-height: 1.2;
+            top: 154px;
+            left: 127px;
+            z-index:20
+        }
+        #thumbnail .thumbnail-list li span i{
+            font-size: 8px
+        }
+        .our-vision .txt-part{
+            margin-top: -487px;
+            margin-left: 249px;
+        }
+        .our-vision .title {
+            margin-right:0
+        }
+        .our-vision .txt-part .paragraph{
+            margin-right: 0;
+            padding-right:0
+        }
+        .our-vision .txt-part .paragraph p{
+            padding-left: 20px
+        }
+        .our-vision .accordion{
+            margin-right: unset;
+            margin-top: 119px
+        }
+        .our-vision .accordion .card{
+            margin-left: -251px;
+        }
+        .our-vision .accordion .card textarea{
+            
+        }
+        .our-vision .email {
+            padding-top: 20px;
+        }
+        .our-vision .email hr{
+            margin-top:0
+        }
+        .our-vision .has-search{
+            z-index:20
+        }
+        .our-vision .email .has-search:before {
+            
+        }
+        .our-vision .email .has-search .form-control {
+            
+        }
+        .our-vision .email .has-search .form-control-feedback {
+            margin-left: 8px;
+        }
+        
+        .our-vision .email .subscribe{
+            float: right
+        }
+        .our-vision .email .subscribe h2 {
+            font-size: 18px;
+        }
+        .our-vision .email .subscribe h6{
+            font-size: 9px
+        }
+    }
+/*---------/520-------*/
+/*---------425-------*/
+    @media(max-width:425px){
+        .our-vision #slider {
+        min-width: 337px;
+            width: 337px;
+        }
+        .our-vision #thumbnail .thumbnail-list li{
+            left: 50px
+        }
+        .our-vision .txt-part{
+            margin-left:0;
+        }
+        .our-vision .txt-part .title h3{
+            font-size:14px
+        }
+        .our-vision .txt-part .title h6{
+            font-size:10px
+        }
+        .our-vision .txt-part .paragraph p {
+            padding-left: 266px;
+            font-size: 8px;
+        }
+        .our-vision .accordion{
+            margin-right: unset;
+            margin-top: 140px;
+            margin-left:0
+        }
+        .our-vision .accordion .card {
+            margin-left:0
+        }
+        .our-vision .accordion .card textarea {
+            
+        }
+        .our-vision .email .has-search{
+            
+            margin-top: 15px;
+        }
+        .our-vision .email .has-search .form-control{
+            margin-top:40px;
+            width: 100%;
+            padding-right: 45px;
+        }
+        .our-vision .email .has-search:before{
+            right: 17px
+        }
+        
+        .our-vision .email .subscribe {
+            margin-top:0
+        }
+        
+        
+    }
+/*---------/425-------*/
+/*---------360-------*/
+    @media (max-width:360px){
+        
+        .our-vision #slider {
+            min-width: 298px;
+            width: 298px;
+        }
+        .our-vision #slider .img-1{
+            background-image: url(../imgs/our-vision-360.png) ;
+        }
+        .our-vision #slider .img-2{
+            background-image: url(../imgs/our-vision2-360.png);
+        }
+        .our-vision #slider .img-3{
+            background-image: url(../imgs/our-vision3-360.png);
+        }
+        .our-vision #thumbnail .thumbnail-list li {
+            line-height: .9;
+            top: 124px;
+            left: 40px
+        }
+        .our-vision .txt-part .paragraph p {
+            padding-left: 245px;
+        }
+        .our-vision .accordion{
+            margin-top:53px
+        }
+        .our-vision .accordion .card textarea {
+            
+        }
+        .our-vision .email .has-search:before{
+            right: 17px;
+        }
+        .our-vision .email .subscribe{
+            
+        }
+        .our-vision .email .subscribe i{
+            margin-top: 0;
+            font-size: 65px;
+            margin-right: 0;
+            float: right;
+            margin-left: 20px
+        }
+        .our-vision .email .has-search .form-control{
+            width: 100%
+        }
+       
+    }
+/*---------/360-------*/
+    
+/*---------320-------*/
+    @media(max-width:320px){
+        .our-vision #slider {
+            min-width: 297px;
+            width: 297px;
+        }
+        .our-vision #slider .img-1{
+            background-image: url(../imgs/our-vision-320.png) ;
+        }
+        .our-vision #slider .img-2{
+            background-image: url(../imgs/our-vision2-320.png);
+        }
+        .our-vision #slider .img-3{
+            background-image: url(../imgs/our-vision3-320.png);
+        }
+        #thumbnail .thumbnail-list li span i{
+            font-size:6px
+        }
+        .our-vision #thumbnail .thumbnail-list li {
+            line-height: .7;
+            top: 95px;
+            left: 0
+        }
+        .our-vision .txt-part .paragraph p {
+            padding-left: 169px;
+            margin-top: -5px;
+        }
+        .our-vision .accordion .card button{
+            font-size: 13px;
+            padding-right: 0;
+        }
+        .our-vision .accordion .show::after{
+            font-size: 10px;
+            top: 21px
+        }
+        .our-vision .accordion .collapsed:after{
+            font-size: 10px;
+            top: 21px
+        }
+        .our-vision .accordion .card textarea {
+            
+        }
+        .our-vision .email .subscribe{
+            
+        }
+        .our-vision .email .subscribe h6{
+            font-size: 7px;
+        }
+        .our-vision .email .subscribe h2{
+            font-size: 16px
+        }
+        .our-vision .email .has-search .form-control {
+            width: 100%;
+        }
+        .our-vision .email .has-search:before{
+            right: 20px
+        }
+    }
+
+/*---------/320-------*/
+/*End Our Vision*/
+/*Start Footer*/
+/*---------991-------*/
+    @media(max-width:991px){
+        footer .about-us-par{
+            width: unset; 
+            margin-left: unset; 
+        }
+        footer .important-links ul{
+            margin-bottom: 0
+        }
+    }
+/*---------/991-------*/
+    @media (max-width:768px){
+        footer {
+            margin-top:0;
+        }
+        footer .more{
+            margin-right:0;
+            float: right
+        }
+    }
+/*---------520-------*/
+    @media(max-width:520px){
+        footer {
+            
+            
+        }
+        footer h4{ 
+            padding-bottom: 20px;
+        }
+        footer .more{
+            
+        }
+        footer .about-us-par{
+            padding-left: 186px;
+        }
+        footer .bottom-footer img{
+            width:80px;
+        }
+        footer .bottom-footer h5{
+            font-size:12px
+        }
+    
+/*---------/520-------*/
+/*---------425-------*/
+    @media(max-width:425px){
+        footer {
+            
+        }
+        footer .more{
+            
+        }
+        footer .bottom-footer img{
+            width:70px;
+        }
+        footer .bottom-footer h5{
+           font-size: 11px; 
+        }
+        
+        }
+    
+/*---------/425-------*/
+/*---------360-------*/
+    @media(max-width:360px){
+        footer {
+            
+        }
+        footer .about-us-par {
+            padding-left: 96px;
+        }
+        footer .more {
+            margin-left: 259px;
+        }
+        footer .bottom-footer h5{
+            font-size: 9px;
+        }
+        footer .bottom-footer img {
+            width: 60px;
+        }
+    
+/*---------/360-------*/
+/*---------320-------*/
+    @media(max-width:320px){
+        footer .about-us-par {
+            padding-left: 50px;
+        }
+        footer .more {
+            margin-left: 220px;
+        }
+        footer .bottom-footer h5{
+            font-size: 8px;
+        }
+        footer .bottom-footer img {
+            width: 50px;
+        }
+        
+    }
+    
+/*---------/320-------*/        
+    
+/*End Footer*/
